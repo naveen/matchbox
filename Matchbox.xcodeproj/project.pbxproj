@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08228274E313A6C40CA44B69 /* MissionCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63EFF29BF83A232F437045 /* MissionCatalogTests.swift */; };
+		27FD4E14687B4524B54AF8FD /* TouchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD8CC1C22537A5174895985 /* TouchCanvas.swift */; };
+		28CDB6C83ACFE0904A3D6A66 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B42C49C3C4374280FC75D0 /* Mission.swift */; };
+		3C7263BB198D4C8C02B996D1 /* StickerBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F029D5FB1D548987063D192 /* StickerBook.swift */; };
+		47C233333C4EFE74D79E87C4 /* TouchState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB990A3D3DFB6E23266DEE0 /* TouchState.swift */; };
+		63E4170CD85A88D3072B78DC /* StickersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295FE4345A18CD4BF8D57784 /* StickersView.swift */; };
+		6F5765AE2FECF6BAAFDFEDA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2878580CCD3398F9688B1D55 /* Assets.xcassets */; };
+		89CF92419BBE786319EEC2BA /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755BA14A359B1C09E1931CB2 /* ConfettiView.swift */; };
+		8BB63F209B40959B6CF81D3C /* TrackpadMirrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40AE59C88252451C8E998E5 /* TrackpadMirrorView.swift */; };
+		90EFC5A59EF824320B6E9E09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D15A8E943B604A26FFF994 /* ContentView.swift */; };
+		A10D6146CA09A25EDF226B49 /* TrackpadSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7BFF22D2D864DD14DD498C /* TrackpadSettings.swift */; };
+		A7E71C89183690E0788997C5 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3775D2B5B7826812DAEAF546 /* Sounds.swift */; };
+		AA3DC8B5E3C703EE85735E2F /* FreePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD277AE6698BC76D7A93D13 /* FreePlayView.swift */; };
+		C9D5D7BFACD050983E8A6D63 /* MatchboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B938AD4EBCA655182356DF4 /* MatchboxApp.swift */; };
+		D7A4F563B9FBC77B8C4C5FF9 /* MissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4F294F217C3BDE995182F /* MissionsView.swift */; };
+		DA24F0CFBAD79D1E097F78EE /* MissionSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B70B6F5E4D3AD6459050B4 /* MissionSession.swift */; };
+		FEDD2AB80B0E6245CE6429DA /* GrownUpsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954BAAE541F25206B831FAF /* GrownUpsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		218A26B16AC8863CFE4FE041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A92A9F254DC805E8E147D802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229610C614BC938E4E050BF1;
+			remoteInfo = Matchbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CA4F294F217C3BDE995182F /* MissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsView.swift; sourceTree = "<group>"; };
+		1E63EFF29BF83A232F437045 /* MissionCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCatalogTests.swift; sourceTree = "<group>"; };
+		2878580CCD3398F9688B1D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		295FE4345A18CD4BF8D57784 /* StickersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickersView.swift; sourceTree = "<group>"; };
+		3775D2B5B7826812DAEAF546 /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		3AB990A3D3DFB6E23266DEE0 /* TouchState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchState.swift; sourceTree = "<group>"; };
+		5B938AD4EBCA655182356DF4 /* MatchboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchboxApp.swift; sourceTree = "<group>"; };
+		755BA14A359B1C09E1931CB2 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		7954BAAE541F25206B831FAF /* GrownUpsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrownUpsView.swift; sourceTree = "<group>"; };
+		7CD277AE6698BC76D7A93D13 /* FreePlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePlayView.swift; sourceTree = "<group>"; };
+		7F029D5FB1D548987063D192 /* StickerBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerBook.swift; sourceTree = "<group>"; };
+		84B42C49C3C4374280FC75D0 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		B1A19CAC0427085DF8ED3F4C /* MatchboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E938E9E01413B3C6CFE018 /* Matchbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD8CC1C22537A5174895985 /* TouchCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchCanvas.swift; sourceTree = "<group>"; };
+		C2B70B6F5E4D3AD6459050B4 /* MissionSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionSession.swift; sourceTree = "<group>"; };
+		D40AE59C88252451C8E998E5 /* TrackpadMirrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackpadMirrorView.swift; sourceTree = "<group>"; };
+		DC7BFF22D2D864DD14DD498C /* TrackpadSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackpadSettings.swift; sourceTree = "<group>"; };
+		F9D15A8E943B604A26FFF994 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1331E885864CB861B5154DCE /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				755BA14A359B1C09E1931CB2 /* ConfettiView.swift */,
+				3775D2B5B7826812DAEAF546 /* Sounds.swift */,
+			);
+			path = Rewards;
+			sourceTree = "<group>";
+		};
+		371F9226B4D35584F6B6D644 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7954BAAE541F25206B831FAF /* GrownUpsView.swift */,
+				DC7BFF22D2D864DD14DD498C /* TrackpadSettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4780A468EB46123DD0582B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2E938E9E01413B3C6CFE018 /* Matchbox.app */,
+				B1A19CAC0427085DF8ED3F4C /* MatchboxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EE44C7273A65A4F2F7550A3 /* MatchboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E63EFF29BF83A232F437045 /* MissionCatalogTests.swift */,
+			);
+			path = MatchboxTests;
+			sourceTree = "<group>";
+		};
+		66A77EE3470EF4B38A92EEB7 /* FreePlay */ = {
+			isa = PBXGroup;
+			children = (
+				7CD277AE6698BC76D7A93D13 /* FreePlayView.swift */,
+				BBD8CC1C22537A5174895985 /* TouchCanvas.swift */,
+				3AB990A3D3DFB6E23266DEE0 /* TouchState.swift */,
+				D40AE59C88252451C8E998E5 /* TrackpadMirrorView.swift */,
+			);
+			path = FreePlay;
+			sourceTree = "<group>";
+		};
+		7CF59314599D74DB3E2F6664 /* Matchbox */ = {
+			isa = PBXGroup;
+			children = (
+				2878580CCD3398F9688B1D55 /* Assets.xcassets */,
+				F9D15A8E943B604A26FFF994 /* ContentView.swift */,
+				5B938AD4EBCA655182356DF4 /* MatchboxApp.swift */,
+				66A77EE3470EF4B38A92EEB7 /* FreePlay */,
+				B0C62C9EE0DAB90DA78E9EF4 /* Missions */,
+				1331E885864CB861B5154DCE /* Rewards */,
+				371F9226B4D35584F6B6D644 /* Settings */,
+			);
+			path = Matchbox;
+			sourceTree = "<group>";
+		};
+		B0C62C9EE0DAB90DA78E9EF4 /* Missions */ = {
+			isa = PBXGroup;
+			children = (
+				84B42C49C3C4374280FC75D0 /* Mission.swift */,
+				C2B70B6F5E4D3AD6459050B4 /* MissionSession.swift */,
+				1CA4F294F217C3BDE995182F /* MissionsView.swift */,
+				7F029D5FB1D548987063D192 /* StickerBook.swift */,
+				295FE4345A18CD4BF8D57784 /* StickersView.swift */,
+			);
+			path = Missions;
+			sourceTree = "<group>";
+		};
+		D3AADA40AA365FCF05832318 = {
+			isa = PBXGroup;
+			children = (
+				7CF59314599D74DB3E2F6664 /* Matchbox */,
+				4EE44C7273A65A4F2F7550A3 /* MatchboxTests */,
+				4780A468EB46123DD0582B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17277BDF88D3AD2233FEBB65 /* MatchboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E46980645AD191771249737D /* Build configuration list for PBXNativeTarget "MatchboxTests" */;
+			buildPhases = (
+				5FB83EFD3AC3468403716F30 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4F315ECE42745C96FCD0A23 /* PBXTargetDependency */,
+			);
+			name = MatchboxTests;
+			packageProductDependencies = (
+			);
+			productName = MatchboxTests;
+			productReference = B1A19CAC0427085DF8ED3F4C /* MatchboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		229610C614BC938E4E050BF1 /* Matchbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE631946C6AF9867DAFCC5F /* Build configuration list for PBXNativeTarget "Matchbox" */;
+			buildPhases = (
+				B32A52D8836CB59094AC1505 /* Sources */,
+				C7A1DE55659866138B0FD80D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Matchbox;
+			packageProductDependencies = (
+			);
+			productName = Matchbox;
+			productReference = B2E938E9E01413B3C6CFE018 /* Matchbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A92A9F254DC805E8E147D802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					17277BDF88D3AD2233FEBB65 = {
+						ProvisioningStyle = Automatic;
+					};
+					229610C614BC938E4E050BF1 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F353F4A22134874876C27ECB /* Build configuration list for PBXProject "Matchbox" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D3AADA40AA365FCF05832318;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4780A468EB46123DD0582B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229610C614BC938E4E050BF1 /* Matchbox */,
+				17277BDF88D3AD2233FEBB65 /* MatchboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7A1DE55659866138B0FD80D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5765AE2FECF6BAAFDFEDA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FB83EFD3AC3468403716F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08228274E313A6C40CA44B69 /* MissionCatalogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32A52D8836CB59094AC1505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CF92419BBE786319EEC2BA /* ConfettiView.swift in Sources */,
+				90EFC5A59EF824320B6E9E09 /* ContentView.swift in Sources */,
+				AA3DC8B5E3C703EE85735E2F /* FreePlayView.swift in Sources */,
+				FEDD2AB80B0E6245CE6429DA /* GrownUpsView.swift in Sources */,
+				C9D5D7BFACD050983E8A6D63 /* MatchboxApp.swift in Sources */,
+				28CDB6C83ACFE0904A3D6A66 /* Mission.swift in Sources */,
+				DA24F0CFBAD79D1E097F78EE /* MissionSession.swift in Sources */,
+				D7A4F563B9FBC77B8C4C5FF9 /* MissionsView.swift in Sources */,
+				A7E71C89183690E0788997C5 /* Sounds.swift in Sources */,
+				3C7263BB198D4C8C02B996D1 /* StickerBook.swift in Sources */,
+				63E4170CD85A88D3072B78DC /* StickersView.swift in Sources */,
+				27FD4E14687B4524B54AF8FD /* TouchCanvas.swift in Sources */,
+				47C233333C4EFE74D79E87C4 /* TouchState.swift in Sources */,
+				8BB63F209B40959B6CF81D3C /* TrackpadMirrorView.swift in Sources */,
+				A10D6146CA09A25EDF226B49 /* TrackpadSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4F315ECE42745C96FCD0A23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229610C614BC938E4E050BF1 /* Matchbox */;
+			targetProxy = 218A26B16AC8863CFE4FE041 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42DE4539AD19AE8A31B324F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.naveen.MatchboxTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matchbox.app/Contents/MacOS/Matchbox";
+			};
+			name = Release;
+		};
+		7D90FB6CB2C7C40ADB835EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.naveen.Matchbox;
+				PRODUCT_NAME = Matchbox;
+				SDKROOT = macosx;
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Debug;
+		};
+		8D453460A8FFAEEDB2151981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.naveen.MatchboxTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matchbox.app/Contents/MacOS/Matchbox";
+			};
+			name = Debug;
+		};
+		9A3CC8C14B8A5A849FD8808E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.naveen.Matchbox;
+				PRODUCT_NAME = Matchbox;
+				SDKROOT = macosx;
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Release;
+		};
+		A8A9C8F1C19B94E7C657B7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		E38280FDD7FAC1D19D583062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EE631946C6AF9867DAFCC5F /* Build configuration list for PBXNativeTarget "Matchbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D90FB6CB2C7C40ADB835EA0 /* Debug */,
+				9A3CC8C14B8A5A849FD8808E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E46980645AD191771249737D /* Build configuration list for PBXNativeTarget "MatchboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D453460A8FFAEEDB2151981 /* Debug */,
+				42DE4539AD19AE8A31B324F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F353F4A22134874876C27ECB /* Build configuration list for PBXProject "Matchbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38280FDD7FAC1D19D583062 /* Debug */,
+				A8A9C8F1C19B94E7C657B7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A92A9F254DC805E8E147D802 /* Project object */;
+}
