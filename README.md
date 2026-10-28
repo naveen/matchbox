@@ -10,6 +10,25 @@ they get a gesture right.
 
 A sibling app, Letterbox, will do the same for typing.
 
+## Download
+
+Grab `Matchbox-x.y.z.zip` from the [latest release](https://github.com/naveen/matchbox/releases/latest),
+unzip it, and drag `Matchbox.app` into Applications. It runs on Apple silicon
+and Intel Macs with macOS 26 or later.
+
+Matchbox is not notarized, so the first launch will say Apple could not verify
+it. Either:
+
+- Open **System Settings > Privacy & Security**, scroll down, and click
+  **Open Anyway** next to the Matchbox message, or
+- run this once in Terminal:
+
+```sh
+xattr -d com.apple.quarantine /Applications/Matchbox.app
+```
+
+After that it opens normally.
+
 ## What works today
 
 - **Missions.** The main event. Each session is five short missions, one at a
@@ -54,6 +73,24 @@ Command-line build and tests:
 xcodebuild -project Matchbox.xcodeproj -scheme Matchbox -configuration Debug build
 xcodebuild -project Matchbox.xcodeproj -scheme Matchbox -configuration Debug test
 ```
+
+## Releasing
+
+Pushing a `v*` tag builds a universal Release zip and publishes it as a GitHub
+release (see `.github/workflows/release.yml`):
+
+```sh
+git tag v0.2.0 && git push origin v0.2.0
+```
+
+The same thing from this Mac, if you'd rather not wait on Actions:
+
+```sh
+scripts/release.sh 0.2.0 --publish
+```
+
+The version on the tag becomes the app's version; the build number is the
+commit count.
 
 ## Design notes
 
